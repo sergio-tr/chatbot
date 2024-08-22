@@ -1,0 +1,20 @@
+{
+  "name": "chatgpt-clone",
+  "version": "1.0.0",
+  "description": "A local ChatGPT clone running in the browser",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "http-server": "14.1.1",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
