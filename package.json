@@ -5,7 +5,7 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node src/server/server.js",
-    "dev": "nodemon src/server/server.js"
+    "dev": "nodemon nodemon --watch src --ext html,css,js,json,pem --ignore node_modules src/server/server.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
