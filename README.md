@@ -46,6 +46,7 @@ Start server that reads file changes:
 - **`style.css`**: Styles for the chat interface and scrollbar.
 - **`module.js`**: Handles chat interactions and integrates with the machine learning engine.
 - **`worker.js`**: Web Worker for managing the machine learning model.
+- **`server.js`**: HTTPS server that holds the express application.
 
 ## Acknowledgments
 
