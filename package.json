@@ -4,6 +4,7 @@
   "description": "A local ChatGPT clone running in the browser",
   "main": "server/server.js",
   "scripts": {
+    "build": "node src/server/server.js",
     "start": "node src/server/server.js",
     "dev": "nodemon nodemon --watch src --ext html,css,js,json,pem --ignore node_modules src/server/server.js"
   },
