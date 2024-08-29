@@ -1,6 +1,6 @@
-# ChatGPT Clone in Local
+# ChatBot in Local
 
-A local implementation of a ChatGPT-like application using Web Workers and MLC AI. This project demonstrates a basic chat interface that interacts with a machine learning model for generating responses.
+A local implementation of a ChatBot application using Web Workers and MLC AI. This project demonstrates a basic chat interface that interacts with a machine learning model for generating responses.
 
 ## Features
 
