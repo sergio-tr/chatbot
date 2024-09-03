@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "start": "node src/server/server.js",
-    "dev": "nodemon nodemon --watch src --ext html,css,js,json,pem --ignore node_modules src/server/server.js"
+    "dev": "nodemon nodemon --watch src --ext html,css,js,json,pem --ignore node_modules src/server/server.js",
+    "deploy": "node dist/server/server.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
